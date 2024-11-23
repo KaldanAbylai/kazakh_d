@@ -1,0 +1,70 @@
+*{
+    inset: 0;
+    margin: 0;
+    padding: 0;
+}
+.color-text-tr{
+    color: #fff;
+    transition: all 0.5s;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.color-text-tr:hover{
+    color: orange;
+}
+.text-org{
+    color: orange;
+}
+.bg-body-fon{
+    background-color: rgb(20, 0, 87);
+}
+.img-logo{
+    display: flex;
+}
+.title-1{
+    font-size: 60px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.block_main1{
+    align-items: center;
+    place-items: center;
+}
+.center{
+        display: flex;
+        justify-content: center; /* Центрирует по горизонтали */
+        align-items: center;     /* Центрирует по вертикали */
+        height: 100%;
+    }
+.p_br{
+    font-size: 18px;
+    color: rgb(20, 0, 87);
+}
+@media (min-width:0px) and (max-width:768px) {
+    .title-1{
+        font-size: 40px;
+    }
+  }
+body{
+    background-image: url(https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2020/03/shutterstock_163379354-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title-1{
+    color: rgb(20, 0, 87);
+}
+.dropdown-item{
+    background-color: rgb(20, 0, 87);
+    color: #fff;
+}
+.card{
+    margin-top: 100px;
+}
+.btn-3{
+    background-color: rgb(20, 0, 87);
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: #fff;
+}
