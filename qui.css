@@ -17,6 +17,7 @@ body{
     background-image: url(https://images.wallpaperscraft.ru/image/single/gradient_sinij_fioletovyj_151819_1920x1080.jpg) !important;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
     height: 100vh;
 
 }
